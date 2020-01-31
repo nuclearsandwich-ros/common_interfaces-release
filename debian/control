@@ -1,0 +1,12 @@
+Source: ros-turbulent-stereo-msgs
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-common, ros-turbulent-rosidl-default-generators, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-ros-workspace, ros-turbulent-rmw-connext-cpp, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-rmw-implementation, ros-turbulent-rmw-opensplice-cpp, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, ros-turbulent-rosidl-typesupport-opensplice-c, ros-turbulent-rosidl-typesupport-opensplice-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-stereo-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-rosidl-default-runtime, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Description: A package containing some stereo camera related message definitions.
