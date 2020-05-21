@@ -1,0 +1,12 @@
+Source: ros-testing-common-interfaces
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-common-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-actionlib-msgs, ros-testing-builtin-interfaces, ros-testing-diagnostic-msgs, ros-testing-geometry-msgs, ros-testing-nav-msgs, ros-testing-sensor-msgs, ros-testing-shape-msgs, ros-testing-std-msgs, ros-testing-std-srvs, ros-testing-stereo-msgs, ros-testing-trajectory-msgs, ros-testing-visualization-msgs, ros-testing-ros-workspace
+Description: common_interfaces contains messages and services that are widely used by other ROS packages.
