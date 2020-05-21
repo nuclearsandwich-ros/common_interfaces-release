@@ -1,1 +1,1 @@
-{"trim": "", "base": "37b8415", "trimbase": "", "parent": "debian/foxy/std_msgs", "previous": "78c5ce9"}
+{"base": "aaa9988", "parent": "debian/testing/std_msgs", "previous": "baee101", "trim": "", "trimbase": ""}
