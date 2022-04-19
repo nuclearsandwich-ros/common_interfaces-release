@@ -1,1 +1,1 @@
-{"base": "0176f881", "parent": "debian/rolling/diagnostic_msgs", "previous": "ad09f605", "trim": "", "trimbase": ""}
+{"base": "12501c2c", "parent": "debian/humble/diagnostic_msgs", "previous": "e7f578e9", "trim": "", "trimbase": ""}
