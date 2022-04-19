@@ -1,1 +1,1 @@
-{"base": "04a09ddb", "parent": "debian/rolling/geometry_msgs", "previous": "1bd404d0", "trim": "", "trimbase": ""}
+{"base": "b26eef5e", "parent": "debian/humble/geometry_msgs", "previous": "7ffce6ea", "trim": "", "trimbase": ""}
